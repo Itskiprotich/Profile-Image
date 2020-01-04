@@ -25,7 +25,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'com.github.Keeprawteach:Profile-Image:0.0.1'
 }
 
 ``````
