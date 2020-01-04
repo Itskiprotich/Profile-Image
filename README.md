@@ -52,7 +52,7 @@ Limitations
 
 Author
 ---
-[Kiprotich Japheth](https://github.com/hdodenhof/CircleImageView/issues/133#issuecomment-225437930).
+[Kiprotich Japheth](https://github.com/Keeprawteach).
  
 
 License
