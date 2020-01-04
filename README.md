@@ -15,11 +15,20 @@ As this is just a custom ImageView and not a custom Drawable or a combination of
 Gradle
 ------
 ```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+``````
+```
 dependencies {
     ...
     implementation 'de.hdodenhof:circleimageview:3.0.1'
 }
-```
+
+``````
 
 Usage
 -----
@@ -29,7 +38,7 @@ Usage
     android:id="@+id/profile_image"
     android:layout_width="96dp"
     android:layout_height="96dp"
-    android:src="@drawable/profile"
+    android:src="@drawable/japheth"
     app:civ_border_width="2dp"
     app:civ_border_color="#FF000000"/>
 ```
