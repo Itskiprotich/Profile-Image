@@ -31,7 +31,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.widget.AppCompatImageView;
 
 @SuppressWarnings("UnusedDeclaration")
-public class Image extends AppCompatImageView {
+public class ProfileImage extends AppCompatImageView {
 
     private static final ScaleType SCALE_TYPE = ScaleType.CENTER_CROP;
 
@@ -70,25 +70,25 @@ public class Image extends AppCompatImageView {
     private boolean mBorderOverlay;
     private boolean mDisableCircularTransformation;
 
-    public Image(Context context) {
+    public ProfileImage(Context context) {
         super(context);
 
         init();
     }
 
-    public Image(Context context, AttributeSet attrs) {
+    public ProfileImage(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public Image(Context context, AttributeSet attrs, int defStyle) {
+    public ProfileImage(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.Image, defStyle, 0);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ProfileImage, defStyle, 0);
 
-        mBorderWidth = a.getDimensionPixelSize(R.styleable.Image_civ_border_width, DEFAULT_BORDER_WIDTH);
-        mBorderColor = a.getColor(R.styleable.Image_civ_border_color, DEFAULT_BORDER_COLOR);
-        mBorderOverlay = a.getBoolean(R.styleable.Image_civ_border_overlay, DEFAULT_BORDER_OVERLAY);
-        mCircleBackgroundColor = a.getColor(R.styleable.Image_civ_circle_background_color, DEFAULT_CIRCLE_BACKGROUND_COLOR);
+        mBorderWidth = a.getDimensionPixelSize(R.styleable.ProfileImage_civ_border_width, DEFAULT_BORDER_WIDTH);
+        mBorderColor = a.getColor(R.styleable.ProfileImage_civ_border_color, DEFAULT_BORDER_COLOR);
+        mBorderOverlay = a.getBoolean(R.styleable.ProfileImage_civ_border_overlay, DEFAULT_BORDER_OVERLAY);
+        mCircleBackgroundColor = a.getColor(R.styleable.ProfileImage_civ_circle_background_color, DEFAULT_CIRCLE_BACKGROUND_COLOR);
 
         a.recycle();
 

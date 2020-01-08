@@ -25,7 +25,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'com.github.Keeprawteach:Profile-Image:0.0.1'
+    implementation 'com.github.Keeprawteach:Profile-Image:0.1.1'
 }
 
 ``````
@@ -33,7 +33,7 @@ dependencies {
 Usage
 -----
 ```xml
-<com.kiprotich.japheth.profile.Image
+<com.kiprotich.japheth.profile.ProfileImage
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/profile_image"
     android:layout_width="96dp"

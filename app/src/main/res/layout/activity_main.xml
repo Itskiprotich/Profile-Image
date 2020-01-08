@@ -14,7 +14,7 @@
         android:padding="@dimen/base_padding"
         android:background="@color/light">
 
-        <com.kiprotich.japheth.image.Image
+        <com.kiprotich.japheth.image.ProfileImage
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:layout_centerInParent="true"
@@ -31,7 +31,7 @@
         android:padding="@dimen/base_padding"
         android:background="@color/dark">
 
-        <com.kiprotich.japheth.image.Image
+        <com.kiprotich.japheth.image.ProfileImage
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:layout_centerInParent="true"
